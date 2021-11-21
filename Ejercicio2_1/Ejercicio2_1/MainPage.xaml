@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio2_1.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+
+            <Image x:Name="imagen" HeightRequest="180" WidthRequest="180"/>
+            
+            <Label Text="Nombre" />
+            <Entry x:Name="nombre" BackgroundColor="Blue"/>
+            <Label Text="Descripción" />
+            <Entry x:Name="desc" BackgroundColor="Blue" />
+            
+            <Button Text="Tomar Foto" x:Name="btnfoto"  Clicked="btnfoto_Clicked" BackgroundColor="Yellow"/>
+            <Button Text="a SQLite" x:Name="btngua" Clicked="btngua_Clicked" BackgroundColor="Yellow"/>
+            <Button Text="Ver Lista"  x:Name="btnl" Clicked="btnl_Clicked" BackgroundColor="Yellow"/>
+        </StackLayout>
+    </ScrollView>
+
+   
+
+</ContentPage>
